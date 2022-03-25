@@ -1,7 +1,6 @@
 #include <stdio.h>
-/* ### Exercise 1:
-- Write a C program that reads two real numbers, and then displays their product, with a precision of three decimal places. 
-*/
+ // Exercise 1:
+//- Write a C program that reads two real numbers, and then displays their product, with a precision of three decimal places. 
 int main()
 {
     float a;
