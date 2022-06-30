@@ -65,3 +65,18 @@ char* al_strdup(const char* s)
 }
 
 
+void sort(int* x, unsigned n)
+{
+    for(int i = 0; i < n-1; i++)
+    {
+        for(int j = 0; j < n-i; j++)
+        {
+            if(*(x+i) > *(x+i+1))
+            {
+                int z = *(x+i+1);
+                *(x+i+1) = *(x+i);
+                *(x+i) = z;
+            }
+        }
+    }
+}
